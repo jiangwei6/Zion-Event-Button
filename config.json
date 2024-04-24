@@ -1,24 +1,24 @@
 {
   "customComponentItems": {
     "Downloader": {
-      "name": "Downloader",
-      "imagePath": "preview/downloader.png",
-      "description": "导出excel自定义组件",
+      "name": "EventButton",
+      "imagePath": "preview/event_button.png",
+      "description": "event button",
       "itemInputs": [
         {
-          "fieldName": "eventStr",
+          "fieldName": "event_str",
           "type": "TEXT"
         },
         {
-          "fieldName": "eventStr",
+          "fieldName": "event_str",
           "type": "TEXT"
         },
         {
-          "fieldName": "btnStr",
+          "fieldName": "btn_str",
           "type": "INTEGER"
         }
       ]
     }
   },
-  "version": "0.0.8"
+  "version": "0.0.9"
 }
