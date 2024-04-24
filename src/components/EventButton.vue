@@ -15,13 +15,17 @@ function evalFunc() {
 </script>
 
 <template>
-  <div @click="evalFunc">
+  <div @click="evalFunc" class="event-button">
     {{props.btn_str}}
   </div>
 </template>
 
 <style>
-.container {
-  background: khaki;
+.event-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
 }
 </style>

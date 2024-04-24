@@ -1,6 +1,6 @@
 {
   "customComponentItems": {
-    "Downloader": {
+    "EventButton": {
       "name": "EventButton",
       "imagePath": "preview/event_button.png",
       "description": "event button",
@@ -20,5 +20,5 @@
       ]
     }
   },
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
