@@ -1,4 +1,3 @@
-
 <script setup lang="ts">
 const props = defineProps<{
   globalData: Record<string, any>;
@@ -8,6 +7,7 @@ const props = defineProps<{
   btn_str: string
 }>();
 function evalFunc() {
+  console.log('dispatchEvent');
   window.dispatchEvent(new CustomEvent (props.event_str, {
     detail: { publicId: props.public_id }
   }));
