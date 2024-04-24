@@ -15,9 +15,9 @@ function evalFunc() {
 </script>
 
 <template>
-  <button @click="evalFunc">
+  <div @click="evalFunc">
     {{props.btn_str}}
-  </button>
+  </div>
 </template>
 
 <style>
