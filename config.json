@@ -1,0 +1,24 @@
+{
+  "customComponentItems": {
+    "Downloader": {
+      "name": "Downloader",
+      "imagePath": "preview/downloader.png",
+      "description": "导出excel自定义组件",
+      "itemInputs": [
+        {
+          "fieldName": "eventStr",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "eventStr",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "btnStr",
+          "type": "INTEGER"
+        }
+      ]
+    }
+  },
+  "version": "0.0.8"
+}
