@@ -6,7 +6,7 @@
       "description": "event button",
       "itemInputs": [
         {
-          "fieldName": "event_str",
+          "fieldName": "public_id",
           "type": "TEXT"
         },
         {
@@ -20,5 +20,5 @@
       ]
     }
   },
-  "version": "0.0.9"
+  "version": "0.1.0"
 }
