@@ -3,14 +3,26 @@ const props = defineProps<{
   globalData: Record<string, any>;
   setGlobalData: (newValue: any) => void;
   public_id: string;
-  event_str: string;
+  vara: string;
+  varb: string;
   btn_str: string
 }>();
 function evalFunc() {
   console.log('dispatchEvent');
-  window.dispatchEvent(new CustomEvent (props.event_str, {
-    detail: { publicId: props.public_id }
-  }));
+  // window.dispatchEvent(new CustomEvent (props.event_str, {
+  //   detail: { publicId: props.public_id }
+  // }));
+  window.dispatchEvent(new CustomEvent('automa:execute-workflow', {
+	detail: { 
+		publicId: props.public_id,
+		data: {
+			variables: {
+				vara: props.vara,
+				varb: props.varb
+			}
+		} 
+	}
+}));
 }
 </script>
 
