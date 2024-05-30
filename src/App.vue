@@ -9,7 +9,7 @@ const setGlobalData = (obj: any) => {
 
 </script>
 <template>
-  <EventButton public_id="123" vara="a"  varb="b"  btn_str="测试按钮" :global-data="globalData"
+  <EventButton public_id="123" button_id="123" vara="a"  varb="b" varc="c" btn_str="测试按钮" :global-data="globalData"
     :set-global-data="setGlobalData" />
 </template>
 
