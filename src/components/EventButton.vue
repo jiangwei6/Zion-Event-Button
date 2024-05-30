@@ -5,6 +5,8 @@ const props = defineProps<{
   public_id: string;
   vara: string;
   varb: string;
+  varc: string;
+  button_id: string;
   btn_str: string
 }>();
 function evalFunc() {
@@ -17,8 +19,10 @@ function evalFunc() {
 		publicId: props.public_id,
 		data: {
 			variables: {
+        button_id: props.button_id,
 				vara: props.vara,
-				varb: props.varb
+				varb: props.varb,
+        varc: props.varc
 			}
 		} 
 	}
